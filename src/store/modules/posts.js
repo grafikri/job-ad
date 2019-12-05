@@ -42,6 +42,10 @@ const mutations = {
       item.cityName = lowerTurkishCharToUtf8(
         item.cityName.toLocaleLowerCase("tr-TR")
       )
+      item.description = lowerTurkishCharToUtf8(
+        item.description.toLocaleLowerCase("tr-TR")
+      )
+
       modifiedPosts.push(item)
     }
 
@@ -68,6 +72,11 @@ const mutations = {
         }
 
         if (item.townName.indexOf(title) !== -1) {
+          foundPosts.push(item)
+          continue
+        }
+
+        if (item.description.indexOf(title) !== -1) {
           foundPosts.push(item)
           continue
         }
