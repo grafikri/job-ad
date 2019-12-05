@@ -7,19 +7,17 @@
 <script>
 
 import VAdTemplate from '../../templates/VAd/index'
+import { mapState, mapGetters } from 'vuex'
 
 export default {
   name: "VAd",
   components: {
     VAdTemplate
   },
-  data: () => {
-    return {
-      post: {
-        position: "Hello World",
-        jobTitle: "Full Stack Developer"
-      }
-    }
+  computed: {
+    ...mapGetters({
+      post: 'post/purePost'
+    })
   }
 }
 </script>
