@@ -4,6 +4,7 @@
 const state = {
   posts: [
     {
+      id: "1",
       jobTitle: "Gerber",
       companyName: "Testoğlu Pide",
       duration: "Taze çıktı",
@@ -12,6 +13,7 @@ const state = {
       town: "Çengelköy"
     },
     {
+      id: "2",
       jobTitle: "Gerber 2",
       companyName: "Testoğlu Pide",
       duration: "Taze çıktı",
