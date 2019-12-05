@@ -21,9 +21,9 @@ export default {
   },
   methods: {
     click(id) {
-      console.log("pages click: ", id)
+      this.$router.push({ name: "jobdetail", params: { id: id } })
     }
-  }
+  },
 }
 </script>
 
