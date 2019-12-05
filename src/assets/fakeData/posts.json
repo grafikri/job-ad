@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "jobTitle": "Gerber",
+    "companyName": "Testoğlu Pide",
+    "duration": "Taze çıktı",
+    "distance": "8.53 yakınında",
+    "cityName": "İstanbul",
+    "town": "Çengelköy"
+  },
+  {
+    "id": "2",
+    "jobTitle": "Gerber 2",
+    "companyName": "Testoğlu Pide",
+    "duration": "Taze çıktı",
+    "distance": "8.53 yakınında",
+    "cityName": "İstanbul",
+    "town": "Çengelköy2"
+  }
+]
