@@ -2,6 +2,7 @@ import Vue from "vue"
 import VueRouter from "vue-router"
 import Home from "../views/Home.vue"
 
+import VAd from "../components/pages/VAd/index"
 import VAds from "../components/pages/VAds/index.vue"
 
 Vue.use(VueRouter)
@@ -16,6 +17,11 @@ const routes = [
     path: "/joblist",
     name: "joblist",
     component: VAds
+  },
+  {
+    path: "/jobdetail/:id",
+    name: "jobdetail",
+    component: VAd
   },
   {
     path: "/about",
