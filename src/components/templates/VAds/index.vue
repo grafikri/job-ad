@@ -1,6 +1,6 @@
 <template>
   <div>
-    <VPosts :items="items" />
+    <VPosts :items="posts" />
   </div>
 </template>
 
@@ -13,27 +13,12 @@ export default {
   components: {
     VPosts
   },
-  data: () => {
-    return {
-      items: [
-        {
-          jobTitle: "Gerber",
-          companyName: "Testoğlu Pide",
-          duration: "Taze çıktı",
-          distance: "8.53 yakınında",
-          cityName: "İstanbul",
-          town: "Çengelköy"
-        },
-        {
-          jobTitle: "Gerber 2",
-          companyName: "Testoğlu Pide",
-          duration: "Taze çıktı",
-          distance: "8.53 yakınında",
-          cityName: "İstanbul",
-          town: "Çengelköy"
-        },
-
-      ]
+  props: {
+    posts: {
+      type: Array,
+      default: () => {
+        return []
+      }
     }
   }
 }
