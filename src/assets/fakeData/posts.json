@@ -15,7 +15,7 @@
         "longitude": 29.062856674194339,
         "cityName": "İzmir",
         "townName": "Ahmetbey Mahallesi",
-        "description": "syovsvyosvyoyvsoby",
+        "description": "Deneyimli usta aranıyor",
         "contactPhone": {
           "countryCallingCode": "+90",
           "areaCode": "879",
@@ -25,20 +25,115 @@
       {
         "jobId": "C71CD1954BA149BCAF42B25F775EA4FC",
         "positionName": "Çırak",
-        "companyName": "Testoğlu Lahmacun Pide Ve Kebap",
+        "companyName": "Bizim Kokoreç",
         "durationDay": 0,
-        "durationDayText": "Epey oldu!",
+        "durationDayText": "10 dakika önce!",
         "imageUrl": "https://fakeimg.pl/128x128/?text=istanbul",
         "distance": "3,53 km yakınında",
         "latitude": 41.050968170166023,
         "longitude": 29.062856674194339,
         "cityName": "İstanbul",
         "townName": "Çengelköy Mahallesi",
-        "description": "syovsvyosvyoyvsoby",
+        "description": "İstanbul'un en iyi kokoreççisinde çalışma imkanı",
         "contactPhone": {
           "countryCallingCode": "+90",
           "areaCode": "879",
           "number": "9797979"
+        }
+      },
+      {
+        "jobId": "C71CD1954BA149BCAF42B25F775CA4AC",
+        "positionName": "Motorcu",
+        "companyName": "Burger King",
+        "durationDay": 0,
+        "durationDayText": "15 dakika önce!",
+        "imageUrl": "https://fakeimg.pl/128x128/?text=bursa",
+        "distance": "2,53 km yakınında",
+        "latitude": 41.050968170166023,
+        "longitude": 29.062856674194339,
+        "cityName": "Bursa",
+        "townName": "Yunuseli Mahallesi",
+        "description": "Her zaman açığız",
+        "contactPhone": {
+          "countryCallingCode": "+90",
+          "areaCode": "222",
+          "number": "3334455"
+        }
+      },
+      {
+        "jobId": "C71CD19A4BC149BCAF42B25F775CA4AC",
+        "positionName": "Çalgıcı",
+        "companyName": "Ercan Müzikhol",
+        "durationDay": 0,
+        "durationDayText": "25 dakika önce!",
+        "imageUrl": "https://fakeimg.pl/128x128/?text=ankara",
+        "distance": "3,53 km yakınında",
+        "latitude": 41.050968170166023,
+        "longitude": 29.062856674194339,
+        "cityName": "Ankara",
+        "townName": "Armutlu Mahallesi",
+        "description": "Haftada 3 gün bizimle sahne alacak arkadaşlar arıyoruz",
+        "contactPhone": {
+          "countryCallingCode": "+90",
+          "areaCode": "333",
+          "number": "4445566"
+        }
+      },
+      {
+        "jobId": "C71AA19A4BC149BCAF42B25F775CA4AC",
+        "positionName": "Çiğköteci",
+        "companyName": "Komagene Çiğköfte",
+        "durationDay": 0,
+        "durationDayText": "25 dakika önce!",
+        "imageUrl": "https://fakeimg.pl/128x128/?text=adana",
+        "distance": "13,53 km yakınında",
+        "latitude": 41.050968170166023,
+        "longitude": 29.062856674194339,
+        "cityName": "Adana",
+        "townName": "Akkoyunlu Mahallesi",
+        "description": "Her ayın 15'inde %50 indirim",
+        "contactPhone": {
+          "countryCallingCode": "+90",
+          "areaCode": "111",
+          "number": "1234567"
+        }
+      },
+      {
+        "jobId": "AA1AA19A4BC149BCAF42B25F775CA4AC",
+        "positionName": "Muhallebici",
+        "companyName": "Kadıköy Muhallebicisi",
+        "durationDay": 0,
+        "durationDayText": "1 gün önce!",
+        "imageUrl": "https://fakeimg.pl/128x128/?text=istanbul",
+        "distance": "29,53 km yakınında",
+        "latitude": 41.050968170166023,
+        "longitude": 29.062856674194339,
+        "cityName": "İstanbul",
+        "townName": "Aşağı Kaldırım Mahallesi",
+        "description": "Muhallebi bizim işimiz",
+        "contactPhone": {
+          "countryCallingCode": "+90",
+          "areaCode": "333",
+          "number": "4445566"
+        }
+      },
+      {
+        "jobId": "AA1AA19A4CC149BCAF42B25F775CA4AC",
+        "positionName": "Dönerci",
+        "companyName": "Karaköy Dönercisi",
+        "durationDay": 0,
+        "durationDayText": "3 gün önce!",
+        "imageUrl": "https://fakeimg.pl/128x128/?text=istanbul",
+        "distance": "29,53 km yakınında",
+        "latitude": 41.050968170166023,
+        "longitude": 29.062856674194339,
+        "cityName": "İstanbul",
+        "townName": "Osmangazi Mahallesi",
+        "description": "Türkiyenin en iyi dönercisinde çalışma fırsatı",
+        "contactPhone": {
+          "countryCallingCode": "+90",
+          "areaCode": "555",
+          "number": "7775566"
         }
       }
     ],
