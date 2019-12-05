@@ -3,14 +3,11 @@
     <div>
       <b-card :title="jobTitle" :sub-title="company">
         <b-card-text>
-          <em>card title</em> and make up the bulk of the card's
-          content.
+          <em>{{country}}</em>
+          {{city}} / {{town}}
         </b-card-text>
 
-        <b-card-text>A second paragraph of text in the card.</b-card-text>
-
-        <a href="#" class="card-link">Card link</a>
-        <b-link href="#" class="card-link">Another link</b-link>
+        <p class="mb-0">Mesafe: {{distance}}</p>
       </b-card>
     </div>
   </div>
@@ -27,8 +24,7 @@ export default {
     country: String,
     city: String,
     town: String,
-    addres: String
-
+    distance: String
   }
 }
 </script>

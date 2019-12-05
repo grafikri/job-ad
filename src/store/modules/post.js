@@ -14,7 +14,10 @@ const getters = {
   purePost: state => {
     return {
       jobTitle: state.post.positionName,
-      company: state.post.companyName
+      company: state.post.companyName,
+      city: state.post.cityName,
+      town: state.post.townName,
+      distance: state.post.distance
     }
   }
 }

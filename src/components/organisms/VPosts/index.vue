@@ -7,8 +7,8 @@
         </template>
         <h5 class="mt-0 mb-1">{{item.jobTitle}}</h5>
         <h6 class="mt-0 mb-1">{{item.companyName}}</h6>
-        <p class="mb-0">{{item.cityName}} / {{item.distance}} - {{item.town}}</p>
-        <p class="mb-0">{{item.duration}}</p>
+        <p class="mb-0">{{item.cityName}}</p>
+        <p class="mb-0">Tarih: {{item.duration}}</p>
       </b-media>
     </ul>
   </div>
