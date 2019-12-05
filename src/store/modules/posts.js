@@ -37,7 +37,7 @@ const actions = {
      */
     setTimeout(() => {
       context.commit("addAll", data.result.items)
-    }, 1500)
+    }, 0)
   }
 }
 
