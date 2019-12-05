@@ -6,6 +6,7 @@
 
 <script>
 
+import { mapGetters } from 'vuex'
 import VAdsTemplate from '../../templates/VAds/index.vue'
 
 export default {
@@ -13,29 +14,11 @@ export default {
   components: {
     VAdsTemplate
   },
-  data: () => {
-    return {
-      posts: [
-        {
-          jobTitle: "Gerber",
-          companyName: "Testoğlu Pide",
-          duration: "Taze çıktı",
-          distance: "8.53 yakınında",
-          cityName: "İstanbul",
-          town: "Çengelköy"
-        },
-        {
-          jobTitle: "Gerber 2",
-          companyName: "Testoğlu Pide",
-          duration: "Taze çıktı",
-          distance: "8.53 yakınında",
-          cityName: "İstanbul",
-          town: "Çengelköy"
-        },
-
-      ]
-    }
-  }
+  computed: {
+    ...mapGetters({
+      posts: 'posts/allPosts'
+    })
+  },
 }
 </script>
 
