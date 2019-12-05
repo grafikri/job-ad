@@ -3,6 +3,7 @@ import Vuex from "vuex"
 
 Vue.use(Vuex)
 
+import post from "./modules/post"
 import posts from "./modules/posts"
 
 export default new Vuex.Store({
@@ -12,6 +13,7 @@ export default new Vuex.Store({
   mutations: {},
   actions: {},
   modules: {
-    posts
+    posts,
+    post
   }
 })
