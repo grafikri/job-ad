@@ -24,6 +24,12 @@ export default {
       this.$router.push({ name: "jobdetail", params: { id: id } })
     }
   },
+  mounted() {
+    /**
+     * to fetch all posts from API asynchronously
+     */
+    this.$store.dispatch("posts/fetchAll")
+  }
 }
 </script>
 
