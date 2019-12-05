@@ -1,3 +1,6 @@
+/**
+ * data is represented API response
+ */
 import data from "../../assets/fakeData/posts.json"
 
 /**
@@ -7,25 +10,6 @@ const state = {
   posts: []
 }
 
-// post:[{
-//   id: "1",
-//   jobTitle: "Gerber",
-//   companyName: "Testoğlu Pide",
-//   duration: "Taze çıktı",
-//   distance: "8.53 yakınında",
-//   cityName: "İstanbul",
-//   town: "Çengelköy"
-// },
-// {
-//   id: "2",
-//   jobTitle: "Gerber 2",
-//   companyName: "Testoğlu Pide",
-//   duration: "Taze çıktı",
-//   distance: "8.53 yakınında",
-//   cityName: "İstanbul",
-//   town: "Çengelköy2"
-// }]
-
 const mutations = {
   addAll: (state, payload) => {
     state.posts = payload
@@ -34,7 +18,15 @@ const mutations = {
 
 const getters = {
   allPosts: state => {
-    return state.posts
+    return state.posts.map(item => ({
+      id: item.jobId,
+      jobTitle: item.positionName,
+      companyName: item.companyName,
+      duration: item.durationDayText,
+      distance: item.distance,
+      cityName: item.cityName,
+      town: item.townName
+    }))
   }
 }
 
@@ -44,7 +36,7 @@ const actions = {
      * Simulating to fetching data as if it comes from API
      */
     setTimeout(() => {
-      context.commit("addAll", data)
+      context.commit("addAll", data.result.items)
     }, 1500)
   }
 }

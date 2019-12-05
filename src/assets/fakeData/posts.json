@@ -1,20 +1,22 @@
-[
-  {
-    "id": "1",
-    "jobTitle": "Gerber",
-    "companyName": "Testoğlu Pide",
-    "duration": "Taze çıktı",
-    "distance": "8.53 yakınında",
-    "cityName": "İstanbul",
-    "town": "Çengelköy"
-  },
-  {
-    "id": "2",
-    "jobTitle": "Gerber 2",
-    "companyName": "Testoğlu Pide",
-    "duration": "Taze çıktı",
-    "distance": "8.53 yakınında",
-    "cityName": "İstanbul",
-    "town": "Çengelköy2"
+{
+  "version": "1.0",
+  "statusCode": 200,
+  "result": {
+    "items": [
+      {
+        "jobId": "C71CD1954BA149BCAF42B25F775EA4FB",
+        "positionName": "Gerber Operatörü",
+        "companyName": "Testoğlu Lahmacun Pide Ve Kebap",
+        "durationDay": 0,
+        "durationDayText": "Taze çıktı!",
+        "imageUrl": "http://localhost/bluecollar/CompanyJob/000/000/000/avatar/13920170713010155805.jpg",
+        "distance": "8,53 km yakınında",
+        "latitude": 41.050968170166023,
+        "longitude": 29.062856674194339,
+        "cityName": "İstanbul",
+        "townName": "Çengelköy Mahallesi"
+      }
+    ],
+    "total": 1
   }
-]
+}
