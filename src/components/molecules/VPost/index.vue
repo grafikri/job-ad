@@ -1,7 +1,7 @@
 <template>
   <div>
     <div>
-      <b-card :title="position" :sub-title="jobTitle">
+      <b-card :title="jobTitle" :sub-title="company">
         <b-card-text>
           <em>card title</em> and make up the bulk of the card's
           content.
@@ -21,9 +21,8 @@
 export default {
   name: "VPost",
   props: {
-    position: String,
     jobTitle: String,
-    companyName: String,
+    company: String,
     durationDayText: String,
     country: String,
     city: String,
