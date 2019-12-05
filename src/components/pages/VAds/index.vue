@@ -1,12 +1,12 @@
 <template>
   <div>
-    <VAdsTemplate @click="click" :posts="posts" />
+    <VAdsTemplate @reset="handleReset" @submit="handleSubmit" @click="click" :posts="posts" />
   </div>
 </template>
 
 <script>
 
-import { mapGetters } from 'vuex'
+import { mapGetters, mapMutations } from 'vuex'
 import VAdsTemplate from '../../templates/VAds/index.vue'
 
 export default {
@@ -22,6 +22,12 @@ export default {
   methods: {
     click(id) {
       this.$router.push({ name: "jobdetail", params: { id: id } })
+    },
+    handleSubmit(payload) {
+      this.$store.commit("posts/foundAd", payload)
+    },
+    handleReset() {
+      this.$store.dispatch("posts/fetchAll")
     }
   },
   mounted() {
