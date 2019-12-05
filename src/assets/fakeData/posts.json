@@ -6,7 +6,7 @@
       {
         "jobId": "C71CD1954BA149BCAF42B25F775EA4FB",
         "positionName": "Usta",
-        "companyName": "Testoğlu Lahmacun Pide Ve Kebap",
+        "companyName": "Testoğlu Lahmacun Pide Ve Kebap",
         "durationDay": 0,
         "durationDayText": "Taze çıktı!",
         "imageUrl": "http://localhost/bluecollar/CompanyJob/000/000/000/avatar/13920170713010155805.jpg",
@@ -19,15 +19,15 @@
       {
         "jobId": "C71CD1954BA149BCAF42B25F775EA4FC",
         "positionName": "Çırak",
-        "companyName": "Testoğlu Lahmacun Pide Ve Kebap",
+        "companyName": "Testoğlu Lahmacun Pide Ve Kebap",
         "durationDay": 0,
         "durationDayText": "Epey oldu!",
         "imageUrl": "http://localhost/bluecollar/CompanyJob/000/000/000/avatar/13920170713010155805.jpg",
         "distance": "3,53 km yakınında",
         "latitude": 41.050968170166023,
         "longitude": 29.062856674194339,
-        "cityName": "İstanbul",
-        "townName": "Çengelköy Mahallesi"
+        "cityName": "İstanbul",
+        "townName": "Çengelköy Mahallesi"
       }
     ],
     "total": 1
