@@ -23,7 +23,7 @@ export default {
     return {
       location: "",
       title: "",
-      isDisabledSubmit: false
+      isDisabledSubmit: true
     }
   },
   props: {
