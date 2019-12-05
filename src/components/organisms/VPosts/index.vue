@@ -29,6 +29,14 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-  .v-o-posts ul li
-    margin-bottom: 20px
+  .v-o-posts
+    ul
+      li
+        margin-bottom: 20px
+        padding: 10px
+        &:hover
+          background-color: $primary
+          cursor: pointer
+          
+
 </style>
