@@ -18,6 +18,14 @@ export default {
     ...mapGetters({
       post: 'post/purePost'
     })
+  },
+  mounted() {
+    /**
+     * fetching related post from API asynchronously
+     */
+    this.$store.dispatch("post/fetchPost", {
+      id: this.$route.params.id
+    })
   }
 }
 </script>
