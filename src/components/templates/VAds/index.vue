@@ -16,9 +16,7 @@ export default {
   props: {
     posts: {
       type: Array,
-      default: () => {
-        return []
-      }
+      default: []
     }
   }
 }
