@@ -1,6 +1,6 @@
 <template>
   <div>
-    <VAdsTemplate :posts="posts" />
+    <VAdsTemplate @click="click" :posts="posts" />
   </div>
 </template>
 
@@ -19,6 +19,11 @@ export default {
       posts: 'posts/allPosts'
     })
   },
+  methods: {
+    click(id) {
+      console.log("pages click: ", id)
+    }
+  }
 }
 </script>
 

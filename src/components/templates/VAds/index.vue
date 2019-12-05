@@ -1,6 +1,6 @@
 <template>
   <div>
-    <VPosts :items="posts" />
+    <VPosts @click="handleClick" :items="posts" />
   </div>
 </template>
 
@@ -17,6 +17,12 @@ export default {
     posts: {
       type: Array,
       default: []
+    },
+    click: Function
+  },
+  methods: {
+    handleClick(id) {
+      this.$emit("click", id)
     }
   }
 }

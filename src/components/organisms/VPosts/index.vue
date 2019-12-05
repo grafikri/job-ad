@@ -1,7 +1,7 @@
 <template>
   <div class="v-o-posts">
     <ul class="list-unstyled">
-      <b-media tag="li" :key="index" v-for="(item, index) in items">
+      <b-media @click="handleClick(item.id)" tag="li" :key="index" v-for="(item, index) in items">
         <template v-slot:aside>
           <b-img blank blank-color="#abc" width="64" alt="placeholder"></b-img>
         </template>
@@ -23,6 +23,12 @@ export default {
       default() {
         return []
       }
+    },
+    click: Function
+  },
+  methods: {
+    handleClick(id) {
+      this.$emit("click", id)
     }
   }
 }
@@ -35,7 +41,7 @@ export default {
         margin-bottom: 20px
         padding: 10px
         &:hover
-          background-color: $primary
+          background-color: $light
           cursor: pointer
           
 
