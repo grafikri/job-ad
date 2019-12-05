@@ -3,8 +3,15 @@
     <router-view />
   </div>
 </template>
+<script>
 
-<style lang="scss">
+
+
+export default {
+  name: "App"
+}
+</script>
+<style lang="sass">
 // #app {
 //   font-family: 'Avenir', Helvetica, Arial, sans-serif;
 //   -webkit-font-smoothing: antialiased;
