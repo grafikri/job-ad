@@ -2,6 +2,7 @@ import Vue from "vue"
 import VueRouter from "vue-router"
 import Home from "../views/Home.vue"
 
+import VHome from "../components/templates/VHome/index"
 import VAd from "../components/pages/VAd/index"
 import VAds from "../components/pages/VAds/index.vue"
 
@@ -11,7 +12,7 @@ const routes = [
   {
     path: "/",
     name: "home",
-    component: Home
+    component: VHome
   },
   {
     path: "/joblist",
