@@ -3,7 +3,7 @@
     <ul class="list-unstyled">
       <b-media @click="handleClick(item.id)" tag="li" :key="index" v-for="(item, index) in items">
         <template v-slot:aside>
-          <b-img blank blank-color="#abc" width="64" alt="placeholder"></b-img>
+          <b-img :src="item.imageUrl" width="64" alt="placeholder"></b-img>
         </template>
         <h5 class="mt-0 mb-1">{{item.jobTitle}}</h5>
         <h6 class="mt-0 mb-1">{{item.companyName}}</h6>
@@ -38,7 +38,7 @@ export default {
   .v-o-posts
     ul
       li
-        margin-bottom: 20px
+        margin-bottom: 10px
         padding: 10px
         &:hover
           background-color: $light

@@ -8,6 +8,8 @@
         </b-card-text>
 
         <p class="mb-0">Mesafe: {{distance}}</p>
+        <p class="mb-0">{{desc}}</p>
+        <p class="mb-0">{{phone}}</p>
       </b-card>
     </div>
   </div>
@@ -24,7 +26,9 @@ export default {
     country: String,
     city: String,
     town: String,
-    distance: String
+    distance: String,
+    desc: String,
+    phone: String
   }
 }
 </script>

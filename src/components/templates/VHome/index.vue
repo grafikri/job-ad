@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="v-t-home">
     <VLink href="/joblist">
       <VButton value="Tüm ilanları listele" />
     </VLink>
@@ -20,5 +20,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="sass" scoped>
+  .v-t-home
+    padding: 10px
 </style>

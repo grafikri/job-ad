@@ -9,12 +9,18 @@
         "companyName": "Testoğlu Lahmacun Pide Ve Kebap",
         "durationDay": 0,
         "durationDayText": "Taze çıktı!",
-        "imageUrl": "http://localhost/bluecollar/CompanyJob/000/000/000/avatar/13920170713010155805.jpg",
+        "imageUrl": "https://fakeimg.pl/128x128/?text=izmir",
         "distance": "8,53 km yakınında",
         "latitude": 41.050968170166023,
         "longitude": 29.062856674194339,
         "cityName": "İzmir",
-        "townName": "Ahmetbey Mahallesi"
+        "townName": "Ahmetbey Mahallesi",
+        "description": "syovsvyosvyoyvsoby",
+        "contactPhone": {
+          "countryCallingCode": "+90",
+          "areaCode": "879",
+          "number": "9797979"
+        }
       },
       {
         "jobId": "C71CD1954BA149BCAF42B25F775EA4FC",
@@ -22,12 +28,18 @@
         "companyName": "Testoğlu Lahmacun Pide Ve Kebap",
         "durationDay": 0,
         "durationDayText": "Epey oldu!",
-        "imageUrl": "http://localhost/bluecollar/CompanyJob/000/000/000/avatar/13920170713010155805.jpg",
+        "imageUrl": "https://fakeimg.pl/128x128/?text=istanbul",
         "distance": "3,53 km yakınında",
         "latitude": 41.050968170166023,
         "longitude": 29.062856674194339,
         "cityName": "İstanbul",
-        "townName": "Çengelköy Mahallesi"
+        "townName": "Çengelköy Mahallesi",
+        "description": "syovsvyosvyoyvsoby",
+        "contactPhone": {
+          "countryCallingCode": "+90",
+          "areaCode": "879",
+          "number": "9797979"
+        }
       }
     ],
     "total": 1

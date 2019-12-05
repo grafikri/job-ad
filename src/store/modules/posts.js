@@ -100,7 +100,8 @@ const getters = {
       duration: item.durationDayText,
       distance: item.distance,
       cityName: item.cityName,
-      town: item.townName
+      town: item.townName,
+      imageUrl: item.imageUrl
     }))
   }
 }

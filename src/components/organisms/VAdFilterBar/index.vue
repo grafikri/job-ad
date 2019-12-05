@@ -22,7 +22,7 @@ export default {
   data: () => {
     return {
       location: "",
-      title: "çengelköy",
+      title: "",
       isDisabledSubmit: false
     }
   },
