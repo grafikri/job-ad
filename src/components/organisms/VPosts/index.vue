@@ -1,0 +1,34 @@
+<template>
+  <div class="v-o-posts">
+    <ul class="list-unstyled">
+      <b-media tag="li" :key="index" v-for="(item, index) in items">
+        <template v-slot:aside>
+          <b-img blank blank-color="#abc" width="64" alt="placeholder"></b-img>
+        </template>
+        <h5 class="mt-0 mb-1">{{item.jobTitle}}</h5>
+        <h6 class="mt-0 mb-1">{{item.companyName}}</h6>
+        <p class="mb-0">{{item.cityName}} / {{item.distance}} - {{item.town}}</p>
+        <p class="mb-0">{{item.duration}}</p>
+      </b-media>
+    </ul>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "Posts",
+  props: {
+    items: {
+      type: Array,
+      default() {
+        return []
+      }
+    }
+  }
+}
+</script>
+
+<style lang="sass" scoped>
+  .v-o-posts ul li
+    margin-bottom: 20px
+</style>
