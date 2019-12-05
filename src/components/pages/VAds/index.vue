@@ -26,7 +26,7 @@ export default {
   },
   mounted() {
     /**
-     * to fetch all posts from API asynchronously
+     * fetching all posts from API asynchronously
      */
     this.$store.dispatch("posts/fetchAll")
   }
